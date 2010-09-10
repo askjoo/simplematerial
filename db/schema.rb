@@ -10,15 +10,6 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100909004916) do
-
-  create_table "posts", :force => true do |t|
-    t.string   "category"
-    t.string   "title"
-    t.text     "content"
-    t.string   "reference"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
+ActiveRecord::Schema.define(:version => 0) do
 
 end
