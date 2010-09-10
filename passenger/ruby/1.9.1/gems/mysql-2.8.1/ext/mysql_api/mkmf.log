@@ -65,7 +65,7 @@ checked program was:
 /* end */
 
 "gcc -o conftest -I/usr/local/include/ruby-1.9.1/x86_64-linux -I/usr/local/include/ruby-1.9.1/ruby/backward -I/usr/local/include/ruby-1.9.1 -I.    -I/usr/include/mysql  -g -pipe -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -fno-strict-aliasing -fwrapv  -O3 -ggdb -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wno-long-long conftest.c  -L. -L/usr/local/lib -Wl,-R/usr/local/lib -L.  -rdynamic -Wl,-export-dynamic    -rdynamic -L/usr/lib64/mysql -lmysqlclient -lz -lcrypt -lnsl -lm -L/usr/lib64 -lssl -lcrypto  -Wl,-R -Wl,/usr/local/lib -L/usr/local/lib -lruby-static -rdynamic -L/usr/lib64/mysql -lmysqlclient -lz -lcrypt -lnsl -lm -L/usr/lib64 -lssl -lcrypto  -lpthread -lrt -ldl -lcrypt -lm   -lc"
-/tmp/cc3twiur.o: In function `t':
+/tmp/cc6SrmyA.o: In function `t':
 /var/www/simplematerial.com/passenger/ruby/1.9.1/gems/mysql-2.8.1/ext/mysql_api/conftest.c:5: undefined reference to `rb_thread_start_timer'
 collect2: ld returned 1 exit status
 checked program was:
