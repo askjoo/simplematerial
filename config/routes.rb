@@ -1,5 +1,10 @@
 SimplematerialCom::Application.routes.draw do
+  get "home/jokes"
+  get "home/pickUpLines"
   get "home/index"
+
+  resources :posts
+
   root :to => "home#index" 
   # The priority is based upon order of creation:
   # first created -> highest priority.
