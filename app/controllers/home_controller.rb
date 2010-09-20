@@ -4,7 +4,7 @@ class HomeController < ApplicationController
 
   def jokes
     #@joke = Post.where(:category => 'jokes')
-    random_joke = rand(Post.count)+1 #counts db rows + 1 (rails counts from 1)
+    random_joke = rand(Post.count)+1 #counts db rows + 1 (db id counts from 1)
     @joke = Post.find(random_joke)
 	
     respond_to do |format|
